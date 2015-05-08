@@ -1,6 +1,6 @@
 ;; gidl-mode.el --- a simple major mode for editing GIDL files.
 
-;; Version: 20150507.0000
+;; Version: 20150507.0001
 ;; Author: Getty Ritter
 ;; Url: https://github.com/aisamanra/gidl-mode
 
@@ -30,6 +30,9 @@
   (setq mode-name "GIDL mode")
   (setq comment-start "--")
   (setq comment-end ""))
+
+;;;###autoload
+(add-to-list 'auto-mode-alist '("\\.i?g?idl\\'" . gidl-mode))
 
 (provide 'gidl-mode)
 
