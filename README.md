@@ -1,6 +1,6 @@
-A major mode for editing [https://github.com/GaloisInc/gidl](GIDL) files.
+A major mode for editing [GIDL](https://github.com/GaloisInc/gidl) files.
 This mode is also available through a package archive hosted at
-[http://gelpa.gdritter.com/](`gelpa.gdritter.com`), which means you can
+[`gelpa.gdritter.com`](http://gelpa.gdritter.com/), which means you can
 install it by adding
 
 ~~~~
